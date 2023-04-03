@@ -6,16 +6,6 @@
 | **Kelas**       | TI.21.A.1                    |
 | **Mata Kuliah** | Pemrograman Mobile 2         |
 
-![Halaman 1](Screenshots/page1.png)
-
-![Halaman 2](Screenshots/page2.png)
-
-![Halaman 3](Screenshots/page3.png)
-
-![Halaman 4](Screenshots/page4.png)
-
-![Halaman 5](Screenshots/page5.png)
-
 ## Codingan
 
 1. Index.php
@@ -169,3 +159,15 @@ th {
   border: 1px solid black;
 }
 ```
+
+## Tampilan
+
+![Halaman 1](Screenshots/page1.png)
+
+![Halaman 2](Screenshots/page2.png)
+
+![Halaman 3](Screenshots/page3.png)
+
+![Halaman 4](Screenshots/page4.png)
+
+![Halaman 5](Screenshots/page5.png)
