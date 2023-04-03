@@ -1,0 +1,66 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #BA55D3;
+  color: white;
+}
+
+td:nth-child(3) {
+  text-align: left;
+}
+
+td:nth-child(1),
+td:nth-child(n+4) {
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: #BA55D3;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: white;
+}
+
+.pagination a.active {
+  background-color: #BA55D3;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #BA55D3;
+  color: white;
+}
+
+.pagination a:first-child,
+.pagination a:last-child {
+  margin: 0;
+}
+
+.pagination a.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
